@@ -7,6 +7,7 @@ Thumbs.db
 
 # Node and related ecosystem
 # ==========================
+dist/
 .nodemonignore
 .sass-cache/
 node_modules/
@@ -20,23 +21,6 @@ coverage-unit/
 reports/
 # Ignore npm's lock since we're using YARN
 package-lock.json
-
-# MEAN.js app and assets
-# ======================
-public/dist/
-uploads
-modules/users/client/img/profile/uploads
-config/env/local.js
-config/env/local-*.js
-*.pem
-
-# Compiled less and sass files
-# ============================
-modules/*/client/scss/*.css
-modules/*/client/less/*.css
-
-# Ignoring MEAN.JS's gh-pages branch for documenation
-_site/
 
 # General
 # =======
